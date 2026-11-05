@@ -16,20 +16,6 @@ The clue maps and tower spawns are match-specific. Collect all four USBs in the 
 
 Download `COD-Red-Worm-Tracker-win-x64.exe` from a [GitHub Release](../../releases). The release build is a self-contained, single-file Windows x64 executable; no separate .NET runtime installation is required.
 
-## Build from source
-
-Requires the .NET 8 SDK and Windows.
-
-```powershell
-dotnet run --project .\COD\COD.csproj
-```
-
-To publish a standalone executable locally:
-
-```powershell
-dotnet publish .\COD\COD.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true
-```
-
 ## Game references
 
 - [Gameranx: Greylorm locations, clue rooms, USB towers, storm, and ammo caches](https://gameranx.com/features/id/485365/article/modern-warfare-3-zombies-secret-red-worm-boss-fight-greylorm-easter-egg-guide/)
